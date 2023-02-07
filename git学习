@@ -31,3 +31,5 @@
 2.从git仓库中删除 git rm a1.py
 3.提交操作 git commit -m '删除了a1.py文件'
 五、将本地仓库提交到github远程仓库
+1.复制远程仓库地址并执行 git clone https://github.com/danielxuguangbin/spider_study.git
+2.
