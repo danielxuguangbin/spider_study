@@ -20,3 +20,14 @@
 2.查看创建的文件 git status
 3.将创建的文件提交到缓冲区 git add a1.py
 4.将缓冲区中的文件提交的仓库并添加描述 git commit -m '新建了一个a1.py文件'
+三、修改仓库文件
+1.修改文件 vi a1.py
+2.查看文件 cat a1.py
+3.查看文件状态 git status
+4.提交文件到缓冲区 git add a1.py
+5.将缓冲区中的文件提交的仓库并添加描述 git commit -m '修改了a1.py文件'
+四、删除仓库文件
+1.删除目录中的文件 rm -rf a1.py
+2.从git仓库中删除 git rm a1.py
+3.提交操作 git commit -m '删除了a1.py文件'
+五、将本地仓库提交到github远程仓库
