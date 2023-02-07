@@ -1,1 +1,22 @@
-
+安装git，选择 Use git from git bash only
+安装完成后，检验是否安装成功，桌面鼠标右键，看看是不是有git菜单
+使用git命令：
+查看当前的文件命令  git status
+将文件从工作区提交到暂存区 git add hello.py
+将暂存区中的文件提交到git仓库（git repository） git commit -m "提交文件的描述"
+初始化git：
+1.设置用户名 git config --global user.name 'danielxuguangbin'
+2.设置用户邮箱 git config --global user.email 'dtwmzj@hotmail.com'
+3.查看设置 git config --list
+在一个文件夹中运行gig 命令行
+一、初始一个新的仓库
+创建一个仓库文件夹 mkdir spider_study
+将创建的文件夹初始化一个git仓库 :
+1.进入文件夹 cd spider_study
+2.查看当前目录 pwd
+3.初始化git目录 git init
+二、在仓库中创建文件并提交文件
+1.创建文件 touch a1.py
+2.查看创建的文件 git status
+3.将创建的文件提交到缓冲区 git add a1.py
+4.将缓冲区中的文件提交的仓库并添加描述 git commit -m '新建了一个a1.py文件'
